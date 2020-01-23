@@ -13,10 +13,10 @@ const opn = require('better-opn'); // https://www.npmjs.com/package/better-opn
 /* Read your private key from the file system. (Never add your private key
  * in code or in source control. Always keep it secure.)
  */
- const privateKey = readFileSync("AuthKey_XXXXXXXXXX.p8");
+ const privateKey = readFileSync("AuthKey_QNBKAKXD7Z.p8");
  // Replace the team ID and key ID values with your actual values.
- const teamId = "XXXXXXXXXX";
- const keyId = "XXXXXXXXXX";
+ const teamId = "LWRLKKP8WA";
+ const keyId = "QNBKAKXD7Z";
 
 // Creates the signature string and returns the full Snapshot request URL including the signature.
 function signIt(params) {
