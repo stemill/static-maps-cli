@@ -36,7 +36,7 @@ function signIt(params) {
     return url;
 }
 
-
+console.log(process.argv[2])
 // Call the signIt function with a simple map request.
 
 /*
