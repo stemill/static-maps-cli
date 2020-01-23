@@ -13,7 +13,7 @@ const { sign } = require("jwa")("ES256");  // https://www.npmjs.com/package/jwa
 /* Read your private key from the file system. (Never add your private key
  * in code or in source control. Always keep it secure.)
  */
- const privateKey = readFileSync("AuthKey_QNBKAKXD7Z.p8");
+ const privateKey = readFileSync("/dbfs/apple_maps/static-maps-cli/AuthKey_QNBKAKXD7Z.p8");
  // Replace the team ID and key ID values with your actual values.
  const teamId = "LWRLKKP8WA";
  const keyId = "QNBKAKXD7Z";
