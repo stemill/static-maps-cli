@@ -36,7 +36,7 @@ function signIt(params) {
     return url;
 }
 
-signIt(process.argv[2])
+console.log(signIt(process.argv[2]))
 
 
 
